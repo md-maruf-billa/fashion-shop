@@ -1,0 +1,57 @@
+@media only screen and (max-width:576px) {
+    header {
+        width: 100%;
+        margin: 0px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    ul {
+        flex-direction: column;
+        margin: 0px;
+        margin-top: 10px;
+    }
+
+    .header-content {
+        flex-direction: column;
+    }
+
+    .header-content .content {
+        width: 100%;
+    }
+
+    .header-content .content h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--heading-col);
+    }
+
+    .img-camaera img {
+        top: 10px;
+        z-index: 1;
+        width: 80%;
+    }
+
+    .img-backg img {
+        top: 190px;
+        width: 80%;
+    }
+
+    .header-content .content {
+        order: 2;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+
+    .sponsor-section{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .sponsor-section .sponsor-img{
+        flex-basis: 100px;
+    }
+
+}
